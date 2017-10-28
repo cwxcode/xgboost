@@ -1,0 +1,24 @@
+﻿Build started 2017/8/4 15:24:53.
+     1>Project "D:\代码\xgboost-master\subtree\rabit\windows\rabit\rabit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\allreduce_base.cc ..\..\src\allreduce_robust.cc ..\..\src\engine.cc
+         engine.cc
+     1>d:\代码\xgboost-master\subtree\rabit\src\engine.cc(9): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         allreduce_robust.cc
+     1>d:\代码\xgboost-master\subtree\rabit\src\allreduce_robust.cc(8): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         allreduce_base.cc
+     1>d:\代码\xgboost-master\subtree\rabit\src\allreduce_base.cc(8): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\代码\xgboost-master\windows\Debug\rabit.lib" /NOLOGO Debug\allreduce_base.obj
+         Debug\allreduce_robust.obj
+         Debug\engine.obj
+         rabit.vcxproj -> D:\代码\xgboost-master\windows\Debug\rabit.lib
+     1>Done Building Project "D:\代码\xgboost-master\subtree\rabit\windows\rabit\rabit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.13
